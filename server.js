@@ -5,7 +5,7 @@ app.get('/',(rep,res)=>{
 
 });
 
-app.get('/users',(rep,res)=>{
+app.get('/user',(rep,res)=>{
     res.sent(" this is users router");
 
 });
